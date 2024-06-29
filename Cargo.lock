@@ -277,7 +277,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "spawn-more-skirmishes"
+name = "spawn-skirmishes"
 version = "0.1.0"
 dependencies = [
  "engage",
