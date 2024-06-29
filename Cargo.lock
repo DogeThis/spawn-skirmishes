@@ -63,8 +63,7 @@ dependencies = [
 
 [[package]]
 name = "engage"
-version = "0.6.1"
-source = "git+https://github.com/DivineDragonFanClub/engage#229bf2e0a967ee526a96238d6c41091a78bd64a5"
+version = "0.6.2"
 dependencies = [
  "bitflags",
  "lazysimd",
