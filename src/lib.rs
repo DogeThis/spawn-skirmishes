@@ -71,7 +71,7 @@ pub fn main() {
     );
     Patch::in_text(0x02B46990)
         .bytes([0x1F, 0x90, 0x01, 0x71])
-        .unwrap(); // Allows training skirmishes to be spawned
+        .unwrap(); // Allows training skirmishes to be spawned on any difficulty
     println!(
         "{}",
         format!("Spawn Skirmishes {}", env!("CARGO_PKG_VERSION"))
