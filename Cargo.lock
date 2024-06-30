@@ -278,7 +278,7 @@ dependencies = [
 
 [[package]]
 name = "spawn-skirmishes"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "engage",
  "skyline 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)",

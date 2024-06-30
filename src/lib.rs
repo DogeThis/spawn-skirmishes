@@ -52,8 +52,8 @@ pub fn gmapspotmanager_calculate_dispos_count(this: *const u8, method_info: Opti
     let result: i32 = call_original!(this, method_info);
     match unsafe { MINUS_PRESSED } {
         true => {
-            println!("Minus pressed, returning 5");
-            return 5;
+            println!("Minus pressed, returning 3");
+            return 3;
         }
         false => {
             println!("CalculateDisposCount: {}", result);
@@ -72,5 +72,8 @@ pub fn main() {
     Patch::in_text(0x02B46990)
         .bytes([0x1F, 0x90, 0x01, 0x71])
         .unwrap(); // Allows training skirmishes to be spawned
-    println!("{}", format!("Spawn Skirmishes {}", env!("CARGO_PKG_VERSION")))
+    println!(
+        "{}",
+        format!("Spawn Skirmishes {}", env!("CARGO_PKG_VERSION"))
+    )
 }
