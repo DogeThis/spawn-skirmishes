@@ -1,5 +1,5 @@
 # Spawn Skirmishes
-Press - on the overworld to spawn skirmishes.
+Press `-` on the overworld to spawn skirmishes.
 
 # Building
 ## Mac
