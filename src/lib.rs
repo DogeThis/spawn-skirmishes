@@ -75,5 +75,6 @@ pub fn main() {
     println!(
         "{}",
         format!("Spawn Skirmishes {}", env!("CARGO_PKG_VERSION"))
-    )
+    );
+    println!("Source code available at https://github.com/DogeThis/spawn-skirmishes");
 }
